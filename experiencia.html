@@ -11,6 +11,99 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-	
-</body>
-</html>
+	<!--header JO-->
+  <nav class="white" role="navigation">
+   <div class="nav-wrapper container">
+    <img src="img/logo-servicio_pais.png" alt="logo">
+    <ul class="right hide-on-med-and-down">
+     <li><a href="#">Tu experiencia</a>
+       <li><a href="#">Proyectos</a></li>
+       <li><a href="#">Nuestras redes</a></li>
+       <li>
+         <input class="search" type="text" size="20" placeholder="Busca a tus compañeros">
+       </li>
+       <li> <a class=" btn-search btn-floating btn-large  waves-effect waves-light grey"><i class="material-icons">search</i></a></li>
+     </ul>
+     <ul id="nav-mobile" class="side-nav">
+       <li><a href="#">Reencuentro</a></li>
+       <li><a href="#">Tu experiencia</a>
+         <li><a href="#">Proyectos</a></li>
+         <li><a href="#">Nuestras redes</a></li>
+         <li>
+           <input class="search" type="text" size="5" placeholder="busca a tus compañeros">
+         </li>
+         <li> <a class="btn-flat waves-effect waves-light grey"><i class="material-icons">search</i></a></li>
+       </ul>
+       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+     </div>
+   </nav>
+  <!--header JO-->
+
+  <!--Posteo -->
+  <section id="dejar-posteo">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col s8  text-center">
+  				<strong>Deja tu comentario</strong>
+  				<input id="nombre" type="text" placeholder="nombre">
+  				<textarea name="comentario" id="cajaposteos" cols="30" rows="10"></textarea>
+  				<button onclick="subirFoto()" class="btn waves-effect waves-light right" type="submit" name="action">Foto<i class="material-icons">attach_file</i>
+  				</button>
+  				<button onclick="agregaPosteo()" class="btn waves-effect waves-light right" type="submit" name=	"action">Enviar<i class="material-icons right">send</i>
+  				</button>
+  				<div id="contenedor-posteos" class="text-left">
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
+  <footer class="page-footer teal">
+  	<div id="footer" class="row">
+  		<div class="col s12 m12">
+
+
+  			<div class="redes_footer">
+  				<h5>SIGUENOS EN</h5>
+  				<div class="redes_header">
+  					<a  title="Descargar" href="https://www.facebook.com/superarpobreza" target="_blank">
+  						<img border="0" src="img/icons/facebook_header.png" /></a>
+  						<a  title="Descargar" href="https://twitter.com/superarpobreza" target="_blank">
+  							<img border="0" src="img/icons/twitter_header.png"/></a>
+  							<a  title="Descargar" href="http://cl.linkedin.com/company/fundaci-n-superaci-n-pobreza?trk=ppro_cprof" target="_blank">
+  								<img border="0" src="img/icons/lkin_header.png" width="25" height="30px"/></a>
+  								<a  title="Descargar" href="http://vimeo.com/superacionpobreza/" target="_blank">
+  									<img border="0" src="img/icons/vimeo_header.png" width="25" height="30px"/></a>
+  									<a  title="Descargar" href="http://www.youtube.com/superacionpobreza" target="_blank">
+  										<img border="0" src="img/icons/youtube_header.png" width="25" height="30px"/></a>
+  										<a  title="Descargar" href="http://www.flickr.com/photos/fundacionsuperacionpobreza" target="_blank">
+  											<img border="0" src="img/icons/rss_header.png" width="25" height="30px"/></a>
+  											<a  title="Descargar" href="http://issuu.com/fundacionsuperacionpobreza" target="_blank">
+  												<img border="0" src="img/icons/issuu_header.png" width="25" height="30px"/></a>
+  												<a  title="Descargar" href="https://www.instagram.com/serviciopais/" target="_blank">
+  													<img border="0" src="img/icons/Instagram-01.png" width="25" height="30px"/></a>
+  												</div>
+  											</div>          
+  										</div>
+  									</div>
+  									<div class="direccion_footer">
+  										<div class="row">
+  											<div class="col s12 m12">
+  												<p>
+  													Fundación para la superación de la pobreza | Todos los Derechos Reservados 2016  <br />
+
+  													República #580 - Santiago, Chile | Fono/Fax: (+56 2) 2 513 9600 | <a href="mailto:info@superacionpobreza.cl">info@superacionpobreza.cl</a>
+  												</p>
+  											</div>
+  										</div>
+  									</div>
+  								</footer>
+
+
+ <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+
+    </body>
+    </html>
