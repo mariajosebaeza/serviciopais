@@ -185,3 +185,16 @@ color:#E4E4E4 ;
  width: 100%;
  z-index: -100;
 }
+
+
+.regionesMP{
+ font-weight: bold;
+}
+.parallax-container{
+   height: 400px;
+ }
+@media only screen and (max-width : 769px) {
+ .margen{
+     margin-top: -50px;
+ }
+}
