@@ -176,9 +176,13 @@ color:#E4E4E4 ;
 
 #video-landing h1{
  font-size: 3em; 
- 
+ font-weight:bold;
+ margin-top:12%;
 }
 
+#video-landing h5{
+ font-weight:bold;
+}
 #video-background {
  height: 100%;
  position: fixed;
