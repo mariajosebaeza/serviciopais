@@ -45,3 +45,15 @@ onload=function()
    setInterval(rotarImagenes,3000);
 }
 
+$(window).scroll(function() {
+   if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+       $('#volver-arriba').fadeIn(200);    // Fade in the arrow
+   } else {
+       $('#volver-arriba').fadeOut(200);   // Else fade out the arrow
+   }
+});
+$('#volver-arriba').click(function() {      // When arrow is clicked
+   $('body,html').animate({
+       scrollTop : 0                       // Scroll to top of body
+   }, 500);
+});
