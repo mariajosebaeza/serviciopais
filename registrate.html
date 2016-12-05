@@ -3,12 +3,12 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Regístrate</title>
+  <title>Reencuentro Servicio País</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/estilosregistrate.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
 	<!--header JO-->
@@ -38,49 +38,68 @@
      </div>
    </nav>
   <!--header JO-->
-
-<!-- iniciar sesion -->
+<body>
+  <!-- registrar -->
   <section class="container">
-    <img src="img/burbuja.png" class="responsive-img parallax mvImgForm">
+    <img src="img/burbuja.png" class="mvImgForm parallax">
     <div class="card-panel transparent">
-      <form class="mvPanelReg center">
+      <form class="mvPanelForm center">
       <h5 class="col s12 m12 l12">Vivamos el Reencuentro!</h5>
-        <div class="input-field">
-          <label for="user" class="">Usuario</label>
-          <input type="text" id="user" class="" autofocus="">
+       <div class="row">
+        <div class="input-field col s12 m12 l12">
+          <label for="names" >Nombres</label>
+          <input id="names" type="text" class="validate" autofocus="">
         </div>
-        <div class="input-field">
-          <label for="inputPassword" class="">
-            Contraseña
-          </label>
-          <input type="password" id="inPass" class="">
+      </div>
+      <div class="row">
+        <div class="input-field col s6 m6 l6">
+          <label for="last_nameP">Apellido Paterno</label>
+          <input id="last_nameP" type="text" class="validate">
         </div>
-        <div class="container">
-          <div class="row center">
-            <button class="waves-effect waves-light btn orange center-text" type="submit">Iniciar Sesión</button>
-          </div>
+        <div class="input-field col s6 m6 l6">
+          <label for="last_nameM">Apellido Materno</label>
+          <input id="last_nameM" type="text" class="validate">
         </div>
-        <div class="checkbox">
-          <input type="checkbox" value="remember-me" class="filled-in" id="filled-in-box">
-          <label for="filled-in-box" class="black-text">Recordar contraseña</label>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 m12 l12">
+          <label for="email" data-error="wrong" data-success="right">Correo</label>
+          <input id="email" type="email" class="validate"> 
         </div>
-        <div class="container">
-          <div class="row center">
-            <a href="https://www.facebook.com/"><img src="img/facebook.PNG" class="responsive-img facebook"></a>
-          </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 m12 l12">
+          <label for="password">Contraseña</label>
+          <input id="password" type="password" class="validate">
         </div>
-        <div class="container">
-          <div class="row center">
-            <p>¿No tienes una cuenta? <a href="formulario.html"> Regístrate</a></p>
-          </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 m12 l12">
+          <label for="telefono">Celular</label>
+          <input id="telefono" type="tel" class="validate">
         </div>
-      </form>
-    </div>  
-  </section>
-<!--fin inicio sesion -->
- 
+      </div>
+      <div class="row">
+        <div class="input-field col s12 m12 l12">
+          <label for="email">Ingersa Tu Proyecto</label>
+          <input id="email" type="email" class="validate">
+        </div>
+      </div>
+      <div class="center">
+        <button class="btn waves-effect waves-light orange" type="submit" name="action">Registrar
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
 
-<!-- footer Dani --> 
+
+
+
+
+
+  <!-- footer Dani --> 
   <footer class="page-footer teal">
    <div id="footer" class="row">
      <div class="col s12 m12">
